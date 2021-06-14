@@ -1,6 +1,6 @@
 # SSL certificate problem (curl command)
 
-![CURL](images/ssl.jpg)
+![SSL](images/ssl.jpg)
 
 The problem was my Kaspersky antivirus! 
 
