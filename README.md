@@ -30,3 +30,21 @@ python get-pip.py
 -	If set, do not attempt to install [wheel](https://packaging.python.org/key_projects/#wheel) (--no-wheel)
 
 ![Pip 2](images/pip2.JPG)
+
+## What is the easiest way to remove all packages installed by pip?
+
+```none
+pip freeze > requirements.txt
+```
+
+Now to remove one by one
+
+```none
+pip uninstall -r requirements.txt
+```
+
+If we want to remove all at once then
+
+```none
+pip uninstall -r requirements.txt -y
+```
