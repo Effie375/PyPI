@@ -31,7 +31,7 @@ python get-pip.py
 -	If set, do not attempt to install [setuptools](https://packaging.python.org/key_projects/#setuptools) (--no-setuptools)
 -	If set, do not attempt to install [wheel](https://packaging.python.org/key_projects/#wheel) (--no-wheel)
 
-![Get pip without wheel and setuptools](images/get-pip-without-wheel-setuptools.JPG)
+![Get pip without wheel and setuptools](images/get-pip-without-wheel-setuptools.jpg)
 
 ## What is the easiest way to remove all packages installed by pip?
 
