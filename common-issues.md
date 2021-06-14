@@ -2,33 +2,27 @@
 
 ![SSL](images/ssl.jpg)
 
-The problem was my Kaspersky antivirus! 
+**Solution**: Turn off the Antivirus.
 
 # ModuleNotFoundError
 
 If you try to install SomePackage from PyPI and you get this error:
 
-![pkg1](images/pkg1.JPG)
-
+```none
 ModuleNotFoundError: No module named “pkg_resources” 
+```
+
+Then try to run
 
 ```
 pip install -–force-reinstall -U setuptools
 ```
 
-![pkg2](images/pkg2.JPG)
-
-And now try again to install the SomePackage from PyPI.
-
-![pkg3](images/pkg3.JPG)
+And now try again to install the *SomePackage* from PyPI.
 
 # Curl command not found on Windows 7 
 
-If you try to install pip use curl and you get this error:
-
-![curl1](images/curl1.JPG)
-
-Then first try to install curl on Windows. 
+If you try to install pip use curl and you get an error, then first try to install `curl` on Windows. 
 
 ## Windows 10, version 1803 or later 
 
@@ -48,5 +42,3 @@ If you have a version of Windows earlier than Windows 10, version 1803, you can 
   - Click Advanced System Settings.
   - In the Advanced tab, click the Environment Variables button on the lower right side.
   - Select the "Path" variable in System Variables and click Edit. In the Edit environment variable dialog box, click New and add the path to the curl.exe file. Example: C:\curl. Windows 7: In the Variable Value textbox, append a semicolon to the value, followed by the path to the curl.exe file. Example: ;C:\curl.
-
-![curl2](images/curl2.JPG)
