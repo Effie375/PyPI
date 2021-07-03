@@ -50,3 +50,41 @@ If we want to remove all at once then
 ```none
 pip uninstall -r requirements.txt -y
 ```
+
+## [pip - The Python Package Installer](https://pip.pypa.io/en/stable/)
+
+Install a package from PyPI:
+
+```none
+pip install SomePackage
+```
+
+Install a package from PyPI if the target machine doesn't have a network connection:
+
+```none
+pip install SomePackage-1.0-py2.py3-none-any.whl
+```
+
+Show what files were installed:
+
+```none
+pip show --files SomePackage
+```
+
+List what packages are outdated:
+
+```none
+pip list --outdated
+```
+
+Upgrade a package:
+
+```none
+pip install --upgrade SomePackage
+```
+
+Uninstall a package:
+
+```none
+pip uninstall SomePackage
+```
