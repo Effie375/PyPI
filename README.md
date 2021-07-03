@@ -1,5 +1,17 @@
 # PyPI
 
+## Introduction
+
+**PIP** is a package management system used to install and manage software packages written in Python. It stands for "preferred installer program" or "Pip Installs Packages."
+
+**PIP for Python** is a utility to manage PyPI package installations from the command line.
+
+If you are using an older version of Python on Windows, you may need to install PIP. You can easily install PIP on Windows by downloading the installation package, opening the command line, and launching the installer.
+
+This tutorial will show **how to install PIP on Windows**, check its version, upgrade, and configure.
+
+**Note**: The latest versions of Python come with PIP pre-installed,  but older versions require manual installation. The following guide is for version 3.4 and above. If you are using an older version of Python, you can upgrade Python via the [Python website](https://www.python.org/downloads/).
+
 ## Installation
 
 ### Do I need to install pip?
