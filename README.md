@@ -51,7 +51,7 @@ If we want to remove all at once then
 pip uninstall -r requirements.txt -y
 ```
 
-## [pip - The Python Package Installer](https://pip.pypa.io/en/stable/)
+## The Python Package Installer
 
 Install a package from PyPI:
 
