@@ -1,4 +1,4 @@
-# PyPI
+# Python Package Index (PyPI)
 
 ## Introduction
 
