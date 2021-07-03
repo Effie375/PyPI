@@ -39,6 +39,110 @@ pip help
 
 If PIP responds, then PIP is installed. Otherwise, there will be an error saying the program could not be found.
 
+### Step 2: Download PIP get-pip.py
+
+Before installing PIP, download the get-pip.py file: [get-pip.py](https://bootstrap.pypa.io/get-pip.py) on [pypa.io](https://bootstrap.pypa.io/get-pip.py).
+
+Download the file to the desired folder in Windows. You can save the file to any location, but remember the path so you can use it later.
+
+### Step 3: Launch Windows Command Line
+
+PIP is a command-line program. When you install PIP, the PIP command is added to your system.
+
+To launch the Command Prompt window:
+
+- Press **Windows Key + X**.
+- Click **Run**.
+- Type in **cmd.exe** and hit enter.
+
+Alternatively, type **cmd** in the Windows search bar and click the "Command Prompt" icon.
+
+Both options open the Command Prompt window. However, note that you may need to run the Command Prompt "As Administrator." If you get an error at any point stating that you don’t have the necessary permissions to perform a task, you will need to open the app as admin.
+
+To run the Command Prompt window "As Administrator", right-click "Command Prompt" and then select the "Run as…" option.
+
+### Step 4: Installing PIP on Windows
+
+Open the Command Prompt if it isn’t already open. Use the `cd` command followed by a folder name to navigate to the location of the get-pip.py file. This is the folder you previously used as the download location.
+
+To install PIP type in the following:
+
+```none
+python get-pip.py
+```
+
+PIP installation should start. If the file isn’t found, double-check the path to the folder where you saved the file.
+
+You can view the contents of your current directory using the following command:
+
+```none
+dir
+```
+
+The `dir` command returns a full listing of the contents of a directory.
+
+### Step 5: How to Check PIP Version
+
+To check the current version of PIP, type the following command:
+
+```none
+pip --version
+```
+
+This command returns the current version of the platform.
+
+### Step 6: Verify Installation
+
+Once you’ve installed PIP, you can test whether the installation has been successful by typing the following:
+
+```none
+pip help
+```
+
+If PIP has been installed, the program runs, and you should see:
+
+```none
+pip 18.0 from c:\users\administrator\appdata\local\programs\python\python37\lib\site-packages\pip (python 3.7)
+```
+
+If you receive an error, repeat the installation process.
+
+### Step 6: Configuration
+
+In Windows, the PIP configuration file is `%HOME%\pip\pip.ini`.
+
+There is also a legacy per-user configuration file. The file is located at `%APPDATA%\pip\pip.ini`.
+
+You can set a custom path location for this config file using the environment variable `PIP_CONFIG_FILE`.
+
+#### Upgrading PIP for Python on Windows
+
+New versions of PIP are released occasionally. These versions may improve the functionality or be obligatory for security purposes.
+
+You can upgrade PIP on Windows using the Command Prompt window.
+
+To upgrade PIP on Windows, enter the following in the command prompt:
+
+```none
+python -m pip install --upgrade pip
+```
+
+This command first uninstalls the old version of PIP and then installs the most current version of PIP.
+
+#### Downgrade PIP Version
+
+This may be necessary if a new version of PIP starts performing undesirably.
+
+If you want to downgrade PIP to a prior version, you can do so by specifying the version.
+
+To downgrade PIP, enter:
+
+```none
+python -m pip install pip==18.1
+```
+
+You should now see the version of PIP that you specified.
+
 ### Installing with get-pip.py
 
 To install pip, securely download [get-pip.py](https://bootstrap.pypa.io/get-pip.py) by following this link: get-pip.py. Alternatively, use `curl`:
