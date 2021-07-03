@@ -20,6 +20,25 @@ This tutorial will show **how to install PIP on Windows**, check its version, up
 
 ![Python Installation](images/python-installation.jpg)
 
+## How To Install PIP To Manage Python Packages On Windows
+
+### Prerequisites
+
+- Computer running Windows or Windows server
+- Access to the Command Prompt window
+
+### Step 1: Check if PIP is Already Installed
+
+Before you **install PIP on Windows**, check if PIP is already installed.
+
+Type in the following command at the command prompt:
+
+```none
+pip help
+```
+
+If PIP responds, then PIP is installed. Otherwise, there will be an error saying the program could not be found.
+
 ### Installing with get-pip.py
 
 To install pip, securely download [get-pip.py](https://bootstrap.pypa.io/get-pip.py) by following this link: get-pip.py. Alternatively, use `curl`:
