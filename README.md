@@ -223,3 +223,31 @@ Uninstall a package:
 ```none
 pip uninstall SomePackage
 ```
+
+## Installing virtualenv on Windows
+
+virtualenv is used to manage Python packages for different projects. Using virtualenv allows you to avoid installing Python packages globally which could break system tools or other projects. You can install virtualenv using pip.
+
+```none
+py -m pip install --user virtualenv
+```
+
+## Creating a virtual environment
+
+To create a virtual environment, go to your project’s directory and run venv. If you are using Python 2, replace venv with virtualenv in the below commands.
+
+```none
+py -m venv env
+```
+
+The second argument is the location to create the virtual environment. Generally, you can just create this in your project and call it env.
+
+venv will create a virtual Python installation in the env folder.
+
+## Activating a virtual environment
+
+Before you can start installing or using packages in your virtual environment you’ll need to activate it.
+
+```none
+.\env\Scripts\activate
+```
